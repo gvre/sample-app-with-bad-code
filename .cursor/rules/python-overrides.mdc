@@ -1,0 +1,20 @@
+---
+description: Python skill overrides for this repository
+globs: "**/*.py"
+---
+
+**Python skill overrides for this repository:**
+
+Domain context:
+This is a sample/demo application used for testing agent skills.
+The `do_stuff()` function in `main.py` is intentional demo code — do not
+flag it for naming or structure.
+
+Review behavior:
+- Include Priority 3 (Nice to Have) issues in reviews
+- Maximum 10 review comments per PR
+- Flag all security issues regardless of severity
+
+Tool overrides:
+- line-length: 100
+- docstring-style: NumPy
